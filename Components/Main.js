@@ -59,7 +59,7 @@ export class Main extends Component {
 </>
     );
   }
-  addnote() {
+  addnote = () => {
     // alert('test');
     if (this.state.noteText) {
       var d = new Date();
@@ -71,7 +71,7 @@ export class Main extends Component {
       this.setState({noteText: ''});
     }
   }
-  deletenote(key){
+  deletenote = key => {
     this.state.noteArray.splice(key,1);
     this.setState({noteArray:this.state.noteArray})
   }

@@ -3,7 +3,9 @@ import { StyleSheet, Text, View } from 'react-native'
 import Main from './Components/Main'
 const App = () => {
   return (
+          <>
    <Main/>
+          </>
   )
 }
 

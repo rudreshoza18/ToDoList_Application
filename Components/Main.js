@@ -28,7 +28,7 @@ export class Main extends Component {
         />
       );
     });
-    return (<>
+    return (
       <View style={styles.container}>
         <View style={styles.header}>
           <Text style={styles.headertext}>--NOTES--</Text>
@@ -56,7 +56,7 @@ export class Main extends Component {
           <Text style={styles.addButtonText}>+</Text>
         </TouchableOpacity>
       </View>
-</>
+
     );
   }
   addnote = () => {
